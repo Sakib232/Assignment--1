@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: 0;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height: 1.5;
+}
+
+/* Header section start*/
+header {
+    height: 70vh;
+    width: 80%;
+    margin: auto;
+}
+
+.main-head .bg-box-img{
+  width: 100%;
+  height: 70vh;
+  background-image: url('../resources/immage/Banner\ Image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+  margin-top: 15px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Header section End*/
+
+/* Discount section Start*/
+.discount {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    margin-top: 80px;
+}
+.discount .disco-text-box {
+    text-align: center;
+    line-height: 1.8;
+}
+
+.discount .disco-text-box h2 {
+    font-size: 50px;
+    color: red;
+}
+.discount .disco-text-box .disco-title-1 {
+    font-size: 14px;
+    color: red;
+}
+.discount .disco-text-box .disco-title-2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.discount .disco-box-img {
+    min-width: 100%;
+    height: 100vh;
+}
+.discount .disco-img {
+    min-width: 100%;
+    height: 55vh;
+    background-image: url('/resources/immage/New\ Year\ Photo.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center center;
+}
+
+/* Discount section End*/
+
+
+/* Party section start*/
+
+.party-section {
+    height: 70vh;
+    width: 80%;
+    margin: auto;
+}
+
+.party-section .bg-party-box-img {
+  width: 100%;
+  height: 70vh;
+  background-image: url('../resources/immage/Vectorrr.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+  margin-top: 15px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.party-section .bg-party-box-img .bg-party-box-text {
+    width: 80%;
+    margin-left: 90px;
+}
+
+.party-section .bg-party-box-img .bg-party-box-text .bg-party-box-text-1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Party section End*/
+
+
+
+/* Address section End*/
+.address {
+    height: 50vh;
+    width: 80%;
+    margin: auto;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.0));
+    margin-top: 80px;
+    border-radius: 10px;
+}
+
+.address .address-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.6;
+}
+
+.address .address-box .address-box-text-1 .address-box-text-2 .address-box-text-3 {
+    font-size: 24px;
+}
+
+.address .address-box .address-box-text-1 .address-box-text-2 .address-box-text-3, span {
+  color: red;
+  font-size: 24px;
+}
+.address .address-box .btn {
+    text-decoration: none;
+    background: red;
+    padding: 0 45px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+/* Address section End*/
+
+/* Offer section Start*/
+.offer-section {
+    height: 50vh;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 100px;
+    grid-row-gap: 0px;
+}
+
+.offer-section .offer-row-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.offer-section .offer-row-1 .offer-row-1-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.offer-section .offer-row-1 h2, p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.offer-section .offer-row-3 .offer-row-1-text-1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.offer-section .offer-row-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.offer-section .offer-row-2 img {
+   height: 300px;
+   width: 300px;
+   border-radius: 50%;
+}
+
+.offer-section .offer-row-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.offer-section .offer-row-3 img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Offer section Start*/
+
+
+/* Holiday section Start*/
+
+.holiday {
+    height: 70vh;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+.holiday .holi-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.holiday .holi-text-box h2 {
+   font-size: 35px;
+   font-weight: 700;
+}
+.holiday .holi-text-box .holi-title-1 {
+    color:red;
+}
+.holiday .holi-text-box .holi-title-2 {
+    width: 50%;
+    text-align: center;
+}
+.holiday .holi-bg {
+ width: 100%;
+ height: 80vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 50px;
+}
+/* Holiday section Start*/
+
+
+/* Portfolio section Start*/
+.portfolio {
+    height: 70vh;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+.portfolio .port-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: 30px;
+}
+.portfolio .port-text-box .port-title-1 {
+  color: red;
+}
+.portfolio .port-text-box h2 {
+   font-size: 30px;
+  }
+
+/* Portfolio section Start*/
+.subscribtion{
+    text-align: center;
+    display: block;
+}
+
+
